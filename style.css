@@ -1,0 +1,23 @@
+body{
+text-align: center;
+}
+#pic{
+height: 200px;
+width: 200px;
+}
+#my_hobby{
+    background:  linear-gradient(lavender,pink, violet, deepskyblue);
+    height: 500px;
+}
+p{
+font-size: 22px;
+}
+h1{
+    font-size: 30px;
+}
+.line{
+ height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;    
+}

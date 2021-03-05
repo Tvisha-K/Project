@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
 }
@@ -66,3 +70,16 @@ h1 {
     padding-left: 9px;
     padding-right: 9px;
 }
+
+button {
+  transition-duration: 0.4s;
+    height: 10px;
+    width: 50px;
+
+}
+
+button:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+

@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -65,8 +65,8 @@ h1 {
     z-index: 10;
 }
 
-.link{
-    float: left; 
+.link {
+    float: left;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -74,15 +74,35 @@ h1 {
 }
 
 button {
-  transition-duration: 0.4s;   
+    transition-duration: 0.4s;
 }
 
 button:hover {
-  background-color: #4CAF50; 
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 
-#my_hobby{
-  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+#my_hobby {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
 }
 
+#inspiration {
+    background: linear-gradient(yellow, orange, red);
+}
+
+.authors {
+    height: 400px;
+    width: 300px;
+    border: 10px solid #AAAAAA; 
+    transition: transform .2s
+}
+
+s .authors:hover {
+    transform: scale(0.9)
+}
+
+h2{
+    font-family:cursive;
+    font-size: 22px;
+    
+}
